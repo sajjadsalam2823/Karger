@@ -1,9 +1,3 @@
-"""
-Assignment 4
-200 vertices
-randomized contraction algorithm is implemented to determine 
-min cut
-"""
 
 import csv
 import random
