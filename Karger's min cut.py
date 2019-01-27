@@ -46,9 +46,9 @@ def mincut(listn, listm):
        A = random.randint(0, len(listn)-1)
        B = random.randint(0, len(listn)-1)
        if A != B:
-           for palang in listm:
-               if palang[0] == listn[A]:
-                   target = palang
+           for pal in listm:
+               if pal[0] == listn[A]:
+                   target = pal
            for inq in listm:
                if inq[0] == listn[B]:
                    for idy in inq[1:]:
